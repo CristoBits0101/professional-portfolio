@@ -1,0 +1,31 @@
+nav {
+  align-items: center;
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+
+nav a {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #f4f7fc;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}

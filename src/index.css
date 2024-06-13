@@ -22,5 +22,8 @@ main {
 }
 
 main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   min-height: 52.383rem;
 }

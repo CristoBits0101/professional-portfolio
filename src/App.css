@@ -1,20 +1,31 @@
-main .about-me-container {
-  background-color: red;
+.about-me-container .personal-image-container img {
+  align-items: center;
+  border-radius: 15rem;
+  box-sizing: border-box;
   display: flex;
-  height: 100%;
+  height: 30rem;
+  justify-content: center;
+  width: 30rem;
+}
+
+.main .about-me-container {
+  display: flex;
   margin: 0 auto;
   width: 80%;
 }
 
-.about-me-container .personal-image-container img {
-  border-radius: 15rem;
-  box-sizing: border-box;
-  height: 30rem;
-  width: 30rem;
+.personal-image-container {
+  background-color: blue;
+  display: flex;
+  justify-content: end;
 }
 
 .personal-information-container,
 .personal-image-container {
   padding: 1.5rem;
   width: 50%;
+}
+
+.personal-information-container {
+  display: flex;
 }

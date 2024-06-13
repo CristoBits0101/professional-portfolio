@@ -1,8 +1,8 @@
 header {
-  background-color: #586c9190;
+  background-color: #8fa4c3;
   box-shadow: 0 0.625rem 0.9375rem -0.625rem rgba(0, 0, 0, 0.05);
   display: grid;
-  padding: 1.5rem;
+  height: 4.555rem;
   place-content: center;
   position: sticky;
   top: 0;

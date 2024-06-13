@@ -2,8 +2,8 @@
   box-sizing: border-box;
   color: #283347;
   font-family: "LXGW WenKai Mono TC", monospace;
-  font-size: 1rem;
   font-optical-sizing: auto;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   margin: 0;
@@ -11,7 +11,16 @@
 }
 
 body {
-  background-color: #f4f7fc75;
+  background-color: #f4f7fc;
   height: 100%;
   width: 100%;
+}
+
+body,
+main {
+  max-width: 100%;
+}
+
+main {
+  min-height: 52.383rem;
 }

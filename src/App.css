@@ -1,3 +1,36 @@
+.about-me-container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.about-me-container h1 {
+  box-sizing: border-box;
+  color: #596079;
+  font-family: "Gentium Plus", serif;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  text-align: justify;
+}
+
+.about-me-container h2 {
+  color: #8fa4c3;
+  font-family: "Macondo", cursive;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  text-align: justify;
+}
+
+.about-me-container p {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
 .about-me-container .personal-image-container img {
   align-items: center;
   border-radius: 15rem;
@@ -8,14 +41,7 @@
   width: 30rem;
 }
 
-.main .about-me-container {
-  display: flex;
-  margin: 0 auto;
-  width: 80%;
-}
-
 .personal-image-container {
-  background-color: blue;
   display: flex;
   justify-content: end;
 }
@@ -28,4 +54,7 @@
 
 .personal-information-container {
   display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
 }

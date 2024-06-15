@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   color: #283347;
-  font-family: "LXGW WenKai Mono TC", monospace;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-size: 1rem;
   font-style: normal;
@@ -26,4 +26,21 @@ main {
   display: flex;
   justify-content: center;
   min-height: 52.383rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }

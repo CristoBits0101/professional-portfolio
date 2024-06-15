@@ -85,7 +85,8 @@ main {
     linear-gradient(90deg, #dfe7f2, #f4f7fc);
   display: flex;
   justify-content: center;
-  min-height: 52.383rem;
+  min-height: calc(100vh - 4.555rem);
+  padding: 2.5rem;
 }
 
 @font-face {

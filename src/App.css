@@ -1,12 +1,14 @@
+/* About */
 .about-me-container {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   width: 80%;
 }
 
 .about-me-container h1 {
   box-sizing: border-box;
-  color: #596079;
+  color: #586c91;
   font-family: "Gentium Plus", serif;
   font-size: 2.75rem;
   font-style: normal;
@@ -31,25 +33,21 @@
   text-align: justify;
 }
 
-.about-me-container .personal-image-container img {
-  align-items: center;
-  border-radius: 15rem;
-  box-sizing: border-box;
-  display: flex;
-  height: 30rem;
-  justify-content: center;
-  width: 30rem;
-}
-
 .personal-image-container {
   display: flex;
   justify-content: end;
-}
-
-.personal-information-container,
-.personal-image-container {
   padding: 1.5rem;
   width: 50%;
+}
+
+.personal-image-container img {
+  align-items: center;
+  border-radius: 15rem;
+  box-sizing: border-box;
+  display: block;
+  justify-content: center;
+  width: 30rem;
+  height: auto;
 }
 
 .personal-information-container {
@@ -57,4 +55,58 @@
   flex-direction: column;
   gap: 0.25rem;
   justify-content: center;
+  padding: 1.5rem;
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .about-me-container {
+    font-size: 1rem;
+  }
+
+  .about-me-container h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-me-container h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-me-container p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .personal-image-container img {
+    align-items: center;
+    border-radius: 15rem;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    max-width: 65%;
+    height: auto;
+  }
+
+  .personal-image-container,
+  .personal-information-container {
+    width: 100%;
+  }
+
+  .personal-image-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Projects */
+
+/* Skills */
+.skills-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }

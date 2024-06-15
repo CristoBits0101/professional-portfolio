@@ -58,8 +58,8 @@
   -moz-transform: scale3d(1.2, 1.2, 0.3);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about-me-container ul {
-    margin: 1rem auto;
+    margin: 1.5rem auto 0 auto;
   }
 }

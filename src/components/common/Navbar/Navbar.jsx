@@ -7,13 +7,19 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <NavLink className="flicker" to="/">About</NavLink>
+          <NavLink className="flicker" to="/">
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink className="flicker" to="/Projects">Projects</NavLink>
+          <NavLink className="flicker" to="/Projects">
+            Projects
+          </NavLink>
         </li>
         <li>
-          <NavLink className="flicker" to="/Skills">Skills</NavLink>
+          <NavLink className="flicker" to="/Skills">
+            Skills
+          </NavLink>
         </li>
       </ul>
     </nav>

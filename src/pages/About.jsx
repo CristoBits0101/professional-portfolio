@@ -1,5 +1,6 @@
 import personalImage from "../assets/images/personal.webp";
 import CV from "../components/common/CV/CV";
+import Networks from '../components/common/Networks/Networks'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
         <p>🧑‍🏫 Certified Scrum Master</p>
         <p>✉️ cristobits0101@gmail.com</p>
         <CV />
+        <Networks />
       </article>
     </section>
   );

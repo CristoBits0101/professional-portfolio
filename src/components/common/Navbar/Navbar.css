@@ -29,3 +29,27 @@ nav ul {
   gap: 1.5rem;
   justify-content: center;
 }
+
+.flicker:hover {
+  animation-name: flicker;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

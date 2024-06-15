@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=LXGW+WenKai+Mono+TC&family=Macondo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=LXGW+WenKai+Mono+TC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   box-sizing: border-box;
   color: #283347;
-  font-family: "Roboto", sans-serif;
+  font-family: "LXGW WenKai Mono TC", monospace;
   font-optical-sizing: auto;
   font-size: 1rem;
   font-style: normal;
@@ -21,13 +25,6 @@ main {
   max-width: 100%;
 }
 
-main {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 52.383rem;
-}
-
 h1,
 h2,
 h3,
@@ -38,9 +35,62 @@ h6 {
   padding: 0;
 }
 
+main {
+  align-items: center;
+  background-image: linear-gradient(
+      90deg,
+      rgba(165, 165, 165, 0.03) 0%,
+      rgba(165, 165, 165, 0.03) 8%,
+      rgba(235, 235, 235, 0.03) 8%,
+      rgba(235, 235, 235, 0.03) 9%,
+      rgba(7, 7, 7, 0.03) 9%,
+      rgba(7, 7, 7, 0.03) 14%,
+      rgba(212, 212, 212, 0.03) 14%,
+      rgba(212, 212, 212, 0.03) 17%,
+      rgba(219, 219, 219, 0.03) 17%,
+      rgba(219, 219, 219, 0.03) 95%,
+      rgba(86, 86, 86, 0.03) 95%,
+      rgba(86, 86, 86, 0.03) 100%
+    ),
+    linear-gradient(
+      67.5deg,
+      rgba(80, 80, 80, 0.03) 0%,
+      rgba(80, 80, 80, 0.03) 11%,
+      rgba(138, 138, 138, 0.03) 11%,
+      rgba(138, 138, 138, 0.03) 17%,
+      rgba(122, 122, 122, 0.03) 17%,
+      rgba(122, 122, 122, 0.03) 24%,
+      rgba(166, 166, 166, 0.03) 24%,
+      rgba(166, 166, 166, 0.03) 27%,
+      rgba(245, 245, 245, 0.03) 27%,
+      rgba(245, 245, 245, 0.03) 89%,
+      rgba(88, 88, 88, 0.03) 89%,
+      rgba(88, 88, 88, 0.03) 100%
+    ),
+    linear-gradient(
+      67.5deg,
+      rgba(244, 244, 244, 0.03) 0%,
+      rgba(244, 244, 244, 0.03) 4%,
+      rgba(16, 16, 16, 0.03) 4%,
+      rgba(16, 16, 16, 0.03) 10%,
+      rgba(157, 157, 157, 0.03) 10%,
+      rgba(157, 157, 157, 0.03) 20%,
+      rgba(212, 212, 212, 0.03) 20%,
+      rgba(212, 212, 212, 0.03) 83%,
+      rgba(5, 5, 5, 0.03) 83%,
+      rgba(5, 5, 5, 0.03) 84%,
+      rgba(237, 237, 237, 0.03) 84%,
+      rgba(237, 237, 237, 0.03) 100%
+    ),
+    linear-gradient(90deg, #dfe7f2, #f4f7fc);
+  display: flex;
+  justify-content: center;
+  min-height: 52.383rem;
+}
+
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/LXGWWenKaiMonoTC-Regular.ttf") format("truetype");
 }

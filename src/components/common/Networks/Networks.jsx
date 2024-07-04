@@ -29,7 +29,7 @@ const Networks = () => {
       <li>
         <a
           className="grow"
-          href="https://www.linkedin.com/in/cristo-rub%C3%A9n-p%C3%A9rez-su%C3%A1rez-773a96214/"
+          href="https://bit.ly/45ytMCt"
           target="_blank"
           rel="noopener noreferrer"
         >

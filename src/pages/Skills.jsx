@@ -1,10 +1,7 @@
-import React from "react";
 import Technologies from "../components/common/Card/Technologies";
 
-import aws from "../assets/icons/aws.svg";
 import bootstrap from "../assets/icons/bootstrap.svg";
 import css from "../assets/icons/css.svg";
-import docker from "../assets/icons/docker.svg";
 import figma from "../assets/icons/figma.svg";
 import filmora from "../assets/icons/filmora.svg";
 import freemarker from "../assets/icons/freemarker.svg";
@@ -13,7 +10,6 @@ import github2 from "../assets/icons/github2.svg";
 import html5 from "../assets/icons/html5.svg";
 import java from "../assets/icons/java.svg";
 import javascript from "../assets/icons/javascript.svg";
-import json from "../assets/icons/json.svg";
 import laravel from "../assets/icons/laravel.svg";
 import linux from "../assets/icons/linux.svg";
 import magnolia from "../assets/icons/magnolia.svg";
@@ -26,8 +22,6 @@ import react from "../assets/icons/react.svg";
 import sass from "../assets/icons/sass.svg";
 import spring from "../assets/icons/spring.svg";
 import sql from "../assets/icons/sql.svg";
-import xml from "../assets/icons/xml.svg";
-import yaml from "../assets/icons/yaml.svg";
 
 const Skills = () => {
   const frontendTechnologies = [
@@ -37,21 +31,13 @@ const Skills = () => {
     { icon: sass, name: "Sass" },
     { icon: javascript, name: "JavaScript" },
     { icon: react, name: "React" },
-    { icon: magnolia, name: "Magnolia" },
-    { icon: figma, name: "Figma" },
-    { icon: filmora, name: "Filmora" },
   ];
 
   const backendTechnologies = [
-    { icon: php, name: "PHP" },
-    { icon: laravel, name: "Laravel" },
-    { icon: python, name: "Python" },
     { icon: java, name: "Java" },
     { icon: spring, name: "Spring" },
-    { icon: freemarker, name: "FreeMarker" },
-    { icon: xml, name: "XML" },
-    { icon: json, name: "JSON" },
-    { icon: yaml, name: "YAML" },
+    { icon: php, name: "PHP" },
+    { icon: laravel, name: "Laravel" },
   ];
 
   const technologies = [
@@ -60,10 +46,6 @@ const Skills = () => {
     { icon: postgresql, name: "PostgreSQL" },
     { icon: git, name: "Git" },
     { icon: github2, name: "GitHub" },
-    { icon: aws, name: "AWS" },
-    { icon: docker, name: "Docker" },
-    { icon: linux, name: "GNU/Linux" },
-    { icon: networking, name: "Networking" },
   ];
 
   return (

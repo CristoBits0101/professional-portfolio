@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+}
+
+.button {
+  align-items: center;
+  background: #8fa4c3;
+  border-radius: 10rem;
+  box-shadow: 0 0.625rem 0.9375rem -0.625rem rgba(0, 0, 0, 0.025);
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s ease;
+  width: max-content;
+}
+
+.button .svg-icon {
+  fill: #f4f7fc;
+}
+
+.button:hover {
+  background: #586c91;
+}
+
+.button:hover .svg-icon {
+  animation: spin 0.5s linear infinite;
+  fill: #f4f7fc;
+}
+
+.button:hover .text {
+  color: #f4f7fc;
+}
+
+.text {
+  color: #f4f7fc;
+  letter-spacing: 0.05rem;
+}
+
+.text:hover {
+  letter-spacing: 0.05rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .button {
+    margin: 1.5rem auto 0 auto;
+  }
+}

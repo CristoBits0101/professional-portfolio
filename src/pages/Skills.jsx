@@ -2,24 +2,16 @@ import Technologies from "../components/common/Card/Technologies";
 
 import bootstrap from "../assets/icons/bootstrap.svg";
 import css from "../assets/icons/css.svg";
-import figma from "../assets/icons/figma.svg";
-import filmora from "../assets/icons/filmora.svg";
-import freemarker from "../assets/icons/freemarker.svg";
 import git from "../assets/icons/git.svg";
 import github2 from "../assets/icons/github2.svg";
 import html5 from "../assets/icons/html5.svg";
 import java from "../assets/icons/java.svg";
 import javascript from "../assets/icons/javascript.svg";
 import laravel from "../assets/icons/laravel.svg";
-import linux from "../assets/icons/linux.svg";
-import magnolia from "../assets/icons/magnolia.svg";
 import mysql from "../assets/icons/mysql.svg";
-import networking from "../assets/icons/networking.svg";
 import php from "../assets/icons/php.svg";
 import postgresql from "../assets/icons/postgresql.svg";
-import python from "../assets/icons/python.svg";
 import react from "../assets/icons/react.svg";
-import sass from "../assets/icons/sass.svg";
 import spring from "../assets/icons/spring.svg";
 import sql from "../assets/icons/sql.svg";
 
@@ -28,7 +20,6 @@ const Skills = () => {
     { icon: html5, name: "HTML" },
     { icon: css, name: "CSS" },
     { icon: bootstrap, name: "Bootstrap" },
-    { icon: sass, name: "Sass" },
     { icon: javascript, name: "JavaScript" },
     { icon: react, name: "React" },
   ];

@@ -9,7 +9,6 @@
 .about-me-container h1 {
   box-sizing: border-box;
   color: #586c91;
-  font-family: "Gentium Plus", serif;
   font-size: 2.75rem;
   font-style: normal;
   font-weight: 400;
@@ -19,12 +18,11 @@
 
 .about-me-container h2 {
   color: #b8c6e3;
-  font-family: "Macondo", cursive;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.05rem;
   text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .about-me-container p {

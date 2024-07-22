@@ -16,7 +16,7 @@ import spring from "../assets/icons/spring.svg";
 import sql from "../assets/icons/sql.svg";
 
 const Skills = () => {
-  const frontendTechnologies = [
+  const frontend = [
     { icon: html5, name: "HTML" },
     { icon: css, name: "CSS" },
     { icon: bootstrap, name: "Bootstrap" },
@@ -24,7 +24,7 @@ const Skills = () => {
     { icon: react, name: "React" },
   ];
 
-  const backendTechnologies = [
+  const backend = [
     { icon: java, name: "Java" },
     { icon: spring, name: "Spring" },
     { icon: php, name: "PHP" },
@@ -43,12 +43,12 @@ const Skills = () => {
     <section className="skills-container">
       <Technologies
         title="Frontend"
-        technologies={frontendTechnologies}
+        technologies={frontend}
         className="card card-1"
       />
       <Technologies
         title="Backend"
-        technologies={backendTechnologies}
+        technologies={backend}
         className="card card-2"
       />
       <Technologies

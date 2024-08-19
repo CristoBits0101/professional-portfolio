@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/dancing-script.ttf") format("truetype");
+}
+
 /* About */
 .about-me-container {
   display: flex;
@@ -9,7 +16,8 @@
 .about-me-container h1 {
   box-sizing: border-box;
   color: #586c91;
-  font-size: 2.75rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.05rem;

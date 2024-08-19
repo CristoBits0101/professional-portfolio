@@ -9,7 +9,7 @@ const Networks = () => {
       <li>
         <a
           className="grow"
-          href="https://github.com/CristoBits0101?tab=repositories"
+          href="https://github.com/CristoBits0101"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -19,7 +19,7 @@ const Networks = () => {
       <li>
         <a
           className="grow"
-          href="https://www.credly.com/users/cristo-ruben-perez-suarez/badges"
+          href="https://www.credly.com/users/cristo-ruben-perez-suarez"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,7 +29,7 @@ const Networks = () => {
       <li>
         <a
           className="grow"
-          href="https://bit.ly/45ytMCt"
+          href="https://www.linkedin.com/in/cristo-su%C3%A1rez-773a96214"
           target="_blank"
           rel="noopener noreferrer"
         >

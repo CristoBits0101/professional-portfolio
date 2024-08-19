@@ -11,7 +11,7 @@ const About = () => {
       <article className="personal-information-container">
         <h2>Greetings and welcome to my portfolio!</h2>
         <h1>I am Cristo Suárez</h1>
-        <p>💻 Full-Stack Web Developer</p>
+        <p>💻 React & Spring Developer</p>
         <p>✉️ cristobits0101@gmail.com</p>
         <CV />
         <Networks />

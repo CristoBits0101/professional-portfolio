@@ -40,7 +40,7 @@ h6 {
 
 header {
   background-color: #8fa4c3;
-  box-shadow: 0 0.625rem 0.9375rem -0.625rem rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0rem -0.0625rem 0.0625rem hsl(215, 15%, 92%);
   display: grid;
   height: 4.555rem;
   place-content: center;

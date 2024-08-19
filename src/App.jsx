@@ -2,9 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
 
-import Header from "./components/layout/Header/Header";
+import Header from "./layouts/Header";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
         </Routes>
       </main>
     </BrowserRouter>

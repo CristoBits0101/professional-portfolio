@@ -1,7 +1,7 @@
-import credly from "../../../assets/icons/credly.svg";
-import github from "../../../assets/icons/github.svg";
-import linkedin from "../../../assets/icons/linkedin.svg";
 import "./Networks.css";
+import credly from "../../assets/icons/credly.svg";
+import github from "../../assets/icons/github.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 const Networks = () => {
   return (

@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,11 +13,6 @@ const Navbar = () => {
         <li>
           <NavLink className="flicker" to="/Projects">
             Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="flicker" to="/Skills">
-            Skills
           </NavLink>
         </li>
       </ul>

@@ -26,8 +26,8 @@ export default function Application({
         <table className="application-main-article-section-two-table">
           <tbody>
             <tr className="application-main-article-section-two-table-tbody-tr">
-              <td className="application-main-article-section-two-table-tbody-td">Feature 1</td>
-              <td className="application-main-article-section-two-table-tbody-td">Description 1</td>
+              <td className="application-main-article-section-two-table-tbody-td">Skill 1</td>
+              <td className="application-main-article-section-two-table-tbody-td">Skill 2</td>
             </tr>
           </tbody>
         </table>

@@ -113,39 +113,3 @@
     justify-content: center;
   }
 }
-
-/* Projects */
-.projects-main-article {
-  background-color: red;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-areas:
-    "title title"
-    "image description";
-  grid-template-columns: 1fr 1fr;
-  min-height: min-content;
-  width: 80%;
-}
-
-.projects-main-article-h2 {
-  background-color: blue;
-  display: flex;
-  font-size: 1.75rem;
-  gap: 1rem;
-  grid-area: title;
-  padding: 0.5rem;
-}
-
-.projects-main-article-section-one {
-  background-color: green;
-  grid-area: image;
-  min-height: 20rem;
-  padding: 0.5rem;
-}
-
-.projects-main-article-section-two {
-  background: yellow;
-  grid-area: description;
-  min-height: 20rem;
-  padding: 0.5rem;
-}

@@ -1,0 +1,50 @@
+.application-main-article {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "title title"
+    "image description";
+  grid-template-columns: 1fr 1fr;
+  min-height: min-content;
+  width: 80%;
+}
+
+.application-main-article-h2 {
+  font-size: 1.75rem;
+  grid-area: title;
+}
+
+.application-main-article-section-one {
+  background-color: green;
+  border-bottom-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  clip-path: polygon(
+    1.875rem 0%,
+    100% 0,
+    100% calc(100% - 1.875rem),
+    calc(100% - 1.875rem) 100%,
+    0 100%,
+    0% 1.875rem
+  );
+  grid-area: image;
+  min-height: 20rem;
+}
+
+.application-main-article-section-two {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  grid-area: description;
+  justify-content: space-between;
+  min-height: 20rem;
+  padding: 0.5rem;
+}
+
+.application-main-article-section-two-table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.application-main-article-section-two-table-thead {
+  text-align: left;
+}

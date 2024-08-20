@@ -4,7 +4,7 @@
   grid-template-areas:
     "title title"
     "image description";
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 1fr 1fr;
   min-height: min-content;
   width: 100%;
 }
@@ -16,7 +16,8 @@
 }
 
 .application-main-article-section-one {
-  background-color: green;
+  align-content: center;
+  background-color: #B8C6E3;
   border-bottom-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
   clip-path: polygon(1.875rem 0%,
@@ -27,6 +28,8 @@
       0% 1.875rem);
   grid-area: image;
   min-height: 20rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .application-main-article-section-two {
@@ -40,6 +43,7 @@
 }
 
 .application-main-article-section-two-p {
+  line-height: 2rem;
   text-align: justify;
   font-size: 1.2rem;
 }
@@ -76,8 +80,10 @@
   padding: 0.75rem 0.5rem;
   text-align: center;
   width: 25%;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1), 0 0.1875rem 0.625rem rgba(0, 0, 0, 0.095);
 }
 
 .application-main-article-section-two-div a:hover {
   background-color: #586C91;
+  transition: 0.25s ease-in-out;
 }

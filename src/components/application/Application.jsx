@@ -1,11 +1,8 @@
 import "./Application.css";
 import PropTypes from "prop-types";
 
-export default function Application({
-  name = "Undefined name",
-  backgroundImage = "",
-  description = "Undefined description",
-}) {
+export default function Application({ content }) {
+  const { name, description, backgroundImage, links } = content;
   return (
     <article className="application-main-article">
       <h2 className="application-main-article-h2">
@@ -13,13 +10,8 @@ export default function Application({
       </h2>
       <section
         className="application-main-article-section-one"
-        style={
-          backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : {}
-        }
-      >
-        {!backgroundImage && (
-          <p className="background-image-placeholder">{backgroundImage}</p>
-        )}
+        style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : {}}>
+        {!backgroundImage && (<p className="background-image-placeholder">No background image</p>)}
       </section>
       <section className="application-main-article-section-two">
         <p className="application-main-article-section-two-p">{description}</p>
@@ -32,16 +24,16 @@ export default function Application({
           </tbody>
         </table>
         <div className="application-main-article-section-two-div">
-          <a href="" target="_blank">
+          <a href={links.demo} target="_blank" rel="noopener noreferrer">
             Demo
           </a>
-          <a href="" target="_blank">
+          <a href={links.video} target="_blank" rel="noopener noreferrer">
             Video
           </a>
-          <a href="" target="_blank">
+          <a href={links.code} target="_blank" rel="noopener noreferrer">
             Code
           </a>
-          <a href="" target="_blank">
+          <a href={links.docs} target="_blank" rel="noopener noreferrer">
             Docs
           </a>
         </div>
@@ -51,7 +43,15 @@ export default function Application({
 }
 
 Application.propTypes = {
-  name: PropTypes.string,
-  description: PropTypes.string,
-  backgroundImage: PropTypes.string,
+  content: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    backgroundImage: PropTypes.string,
+    links: PropTypes.shape({
+      demo: PropTypes.string.isRequired,
+      video: PropTypes.string.isRequired,
+      code: PropTypes.string.isRequired,
+      docs: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
 };

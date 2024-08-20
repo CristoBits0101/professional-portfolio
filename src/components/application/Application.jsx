@@ -36,13 +36,13 @@ export default function Application({
             Demo
           </a>
           <a href="" target="_blank">
-            Code
-          </a>
-          <a href="" target="_blank">
             Video
           </a>
           <a href="" target="_blank">
-            Documentation
+            Code
+          </a>
+          <a href="" target="_blank">
+            Docs
           </a>
         </div>
       </section>

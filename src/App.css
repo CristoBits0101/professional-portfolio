@@ -65,6 +65,14 @@
   width: 50%;
 }
 
+.st1 {
+  fill: #6cb52d;
+}
+
+.st3 {
+  fill: white;
+}
+
 @media (max-width: 1024px) {
   .about-me-container {
     font-size: 1rem;

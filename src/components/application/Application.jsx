@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 export default function Application({
   name = "Undefined name",
-  description = "Undefined description",
   backgroundImage = "",
+  description = "Undefined description",
 }) {
   return (
     <article className="application-main-article">
@@ -24,16 +24,10 @@ export default function Application({
       <section className="application-main-article-section-two">
         <p className="application-main-article-section-two-p">{description}</p>
         <table className="application-main-article-section-two-table">
-          <thead className="application-main-article-section-two-table-thead">
-            <tr>
-              <th>Feature</th>
-              <th>Description</th>
-            </tr>
-          </thead>
           <tbody>
-            <tr>
-              <td>Feature 1</td>
-              <td>Description 1</td>
+            <tr className="application-main-article-section-two-table-tbody-tr">
+              <td className="application-main-article-section-two-table-tbody-td">Feature 1</td>
+              <td className="application-main-article-section-two-table-tbody-td">Description 1</td>
             </tr>
           </tbody>
         </table>

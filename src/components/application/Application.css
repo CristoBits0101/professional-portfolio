@@ -6,7 +6,7 @@
     "image description";
   grid-template-columns: 1fr 1fr;
   min-height: min-content;
-  width: 80%;
+  width: 100%;
 }
 
 .application-main-article-h2 {
@@ -31,13 +31,17 @@
 }
 
 .application-main-article-section-two {
+  background-color: aqua;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   grid-area: description;
   justify-content: space-between;
   min-height: 20rem;
-  padding: 0.5rem;
+}
+
+.application-main-article-section-two-p {
+  font-size: 1.2rem;
 }
 
 .application-main-article-section-two-table {
@@ -47,4 +51,15 @@
 
 .application-main-article-section-two-table-thead {
   text-align: left;
+}
+
+.application-main-article-section-two-table-tbody-tr {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.application-main-article-section-two-table-tbody-td {
+  background-color: yellow;
+  width: 50%;
 }

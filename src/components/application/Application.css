@@ -2,7 +2,6 @@
   display: grid;
   gap: 2rem;
   grid-template-areas:
-    "title title"
     "image description";
   grid-template-columns: 1fr 1fr;
   min-height: min-content;
@@ -12,7 +11,6 @@
 .application-main-article-h2 {
   color: #586C91;
   font-size: 1.75rem;
-  grid-area: title;
 }
 
 .application-main-article-section-one {

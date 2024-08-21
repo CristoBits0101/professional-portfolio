@@ -1,10 +1,12 @@
 import Application from "../components/application/Application";
+import arrimateImage from "../assets/images/arrimate.webp";
+import bearBreadImage from "../assets/images/bear-bread-app.webp";
 
 const Projects = () => {
   const arrimate = {
     name: "Arrímate",
     description: "Social network with e-commerce that encourages participation in events and the sale of community products among people with similar interests.",
-    backgroundImage: "",
+    backgroundImage: arrimateImage,
     links: {
       demo: "",
       video: "",
@@ -16,7 +18,7 @@ const Projects = () => {
   const bearBread = {
     name: "Bear Bread",
     description: "UX/UI design created for an application to order food and make reservations at a location within an amusement park.",
-    backgroundImage: "",
+    backgroundImage: bearBreadImage,
     links: {
       demo: "",
       video: "",

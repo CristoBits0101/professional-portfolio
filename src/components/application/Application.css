@@ -2,8 +2,9 @@
   display: grid;
   gap: 2rem;
   grid-template-areas: "image description";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 35rem 35rem;
   min-height: min-content;
+  place-content: center;
   width: 100%;
 }
 
@@ -15,6 +16,7 @@
 .application-main-article-section-one {
   align-content: center;
   background-color: #b8c6e3;
+  border: 1.5rem solid #b8c6e3;
   border-bottom-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
   clip-path: polygon(
@@ -27,8 +29,14 @@
   );
   grid-area: image;
   min-height: 20rem;
-  padding: 1rem;
   text-align: center;
+}
+
+.application-main-article img {
+  border-radius: 1.5rem;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
 }
 
 .application-main-article-section-two {
@@ -86,4 +94,13 @@
 
 .application-main-article-section-two-table-thead {
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .application-main-article {
+    grid-template-areas:
+      "image"
+      "description";
+    grid-template-columns: 1fr;
+  }
 }

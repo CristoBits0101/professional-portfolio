@@ -41,20 +41,20 @@
   font-size: 1.5rem;
 }
 
-.networks {
-  fill: #ffffff;
-}
-
 .grow {
-  transition: 0.5s, color 0.1s;
-  -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  transition: 0.5s, color 0.1s;
 }
 
 .grow:hover {
-  transform: scale3d(1.2, 1.2, 0.3);
-  -webkit-transform: scale3d(1.2, 1.2, 0.3);
   -moz-transform: scale3d(1.2, 1.2, 0.3);
+  -webkit-transform: scale3d(1.2, 1.2, 0.3);
+  transform: scale3d(1.2, 1.2, 0.3);
+}
+
+.networks {
+  fill: #ffffff;
 }
 
 @media (max-width: 1024px) {

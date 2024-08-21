@@ -29,14 +29,22 @@
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  text-align: justify;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .about-me-container p {
   box-sizing: border-box;
   font-size: 1.2rem;
   text-align: justify;
+}
+
+.details {
+  width: 90%;
+}
+
+.details p {
+  width: 100%;
 }
 
 .personal-image-container {
@@ -51,9 +59,9 @@
   border-radius: 15rem;
   box-sizing: border-box;
   display: block;
+  height: auto;
   justify-content: center;
   width: 30rem;
-  height: auto;
 }
 
 .personal-information-container {
@@ -65,14 +73,6 @@
   width: 50%;
 }
 
-.st1 {
-  fill: #6cb52d;
-}
-
-.st3 {
-  fill: white;
-}
-
 @media (max-width: 1024px) {
   .about-me-container {
     font-size: 1rem;
@@ -80,6 +80,7 @@
 
   .about-me-container h1 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .about-me-container h2 {
@@ -92,24 +93,28 @@
     text-align: justify;
   }
 
-  .personal-image-container img {
-    align-items: center;
-    border-radius: 15rem;
-    box-sizing: border-box;
-    display: block;
-    justify-content: center;
-    max-width: 65%;
-    height: auto;
-  }
-
-  .personal-image-container,
-  .personal-information-container {
-    width: 100%;
+  .details {
+    margin: 0 auto;
   }
 
   .personal-image-container {
     display: flex;
     justify-content: center;
+    width: 100%;
+  }
+
+  .personal-image-container img {
+    align-items: center;
+    border-radius: 15rem;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    justify-content: center;
+    max-width: 65%;
+  }
+
+  .personal-information-container {
+    width: 100%;
   }
 }
 

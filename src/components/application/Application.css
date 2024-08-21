@@ -1,29 +1,30 @@
 .application-main-article {
   display: grid;
   gap: 2rem;
-  grid-template-areas:
-    "image description";
+  grid-template-areas: "image description";
   grid-template-columns: 1fr 1fr;
   min-height: min-content;
   width: 100%;
 }
 
 .application-main-article-h2 {
-  color: #586C91;
+  color: #586c91;
   font-size: 1.75rem;
 }
 
 .application-main-article-section-one {
   align-content: center;
-  background-color: #B8C6E3;
+  background-color: #b8c6e3;
   border-bottom-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
-  clip-path: polygon(1.875rem 0%,
-      100% 0,
-      100% calc(100% - 1.875rem),
-      calc(100% - 1.875rem) 100%,
-      0 100%,
-      0% 1.875rem);
+  clip-path: polygon(
+    1.875rem 0%,
+    100% 0,
+    100% calc(100% - 1.875rem),
+    calc(100% - 1.875rem) 100%,
+    0 100%,
+    0% 1.875rem
+  );
   grid-area: image;
   min-height: 20rem;
   padding: 1rem;
@@ -40,10 +41,32 @@
   padding: 1rem;
 }
 
+.application-main-article-section-two-div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.application-main-article-section-two-div a {
+  background-color: #8fa4c3;
+  border-radius: 5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1),
+    0 0.1875rem 0.625rem rgba(0, 0, 0, 0.095);
+  color: #f4f7fc;
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  width: 25%;
+}
+
+.application-main-article-section-two-div a:hover {
+  background-color: #586c91;
+  transition: 0.25s ease-in-out;
+}
+
 .application-main-article-section-two-p {
+  font-size: 1.2rem;
   line-height: 2rem;
   text-align: justify;
-  font-size: 1.2rem;
 }
 
 .application-main-article-section-two-table {
@@ -51,8 +74,8 @@
   text-align: left;
 }
 
-.application-main-article-section-two-table-thead {
-  text-align: left;
+.application-main-article-section-two-table-tbody-td {
+  width: 50%;
 }
 
 .application-main-article-section-two-table-tbody-tr {
@@ -61,27 +84,6 @@
   width: 100%;
 }
 
-.application-main-article-section-two-table-tbody-td {
-  width: 50%;
-}
-
-.application-main-article-section-two-div {
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-}
-
-.application-main-article-section-two-div a {
-  background-color: #8FA4C3;
-  border-radius: 5rem;
-  color: #f4f7fc;
-  padding: 0.75rem 0.5rem;
-  text-align: center;
-  width: 25%;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1), 0 0.1875rem 0.625rem rgba(0, 0, 0, 0.095);
-}
-
-.application-main-article-section-two-div a:hover {
-  background-color: #586C91;
-  transition: 0.25s ease-in-out;
+.application-main-article-section-two-table-thead {
+  text-align: left;
 }

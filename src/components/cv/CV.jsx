@@ -3,7 +3,7 @@ import "./CV.css";
 const CV = () => {
   return (
     <a
-      href="../../../public/cristo-suárez.pdf"
+      href="../../../public/cristo-suárez-cv.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="button"

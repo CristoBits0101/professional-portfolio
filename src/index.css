@@ -5,7 +5,9 @@
   src: url("/src/assets/fonts/roboto-regular.ttf") format("truetype");
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   color: #283347;
   font-family: "Roboto", sans-serif;

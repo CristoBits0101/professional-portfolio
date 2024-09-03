@@ -1,6 +1,7 @@
 import Application from "../components/application/Application";
 import bearBreadDoc from "../../public/bear-bread-app.pdf";
 import videoArrimate from "../assets/videos/arrimate.mp4";
+import bear from "../assets/videos/bear-bread.mp4";
 
 const Projects = () => {
   const arrimate = {
@@ -27,7 +28,7 @@ const Projects = () => {
     description:
       "UX/UI design created for an application to order food and make reservations at a location within an amusement park.",
     state: "✅ Completed",
-    video: "",
+    video: bear,
     links: {
       demo: "",
       frontendCode: "",

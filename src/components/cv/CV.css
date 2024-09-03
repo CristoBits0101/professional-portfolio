@@ -69,5 +69,24 @@ a {
 @media (max-width: 1024px) {
   .button {
     margin: 1.5rem auto 0 auto;
+    font-size: 0.9rem;
+  }
+
+  .button span {
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+
+  .button .svg-icon {
+    width: 1.4rem;
+  }
+
+  .details {
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .details p {
+    display: flex;
   }
 }

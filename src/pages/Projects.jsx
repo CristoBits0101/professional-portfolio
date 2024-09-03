@@ -1,4 +1,5 @@
 import Application from "../components/application/Application";
+import bearBreadDoc from "../../public/bear-bread-app.pdf";
 import videoArrimate from "../assets/videos/arrimate.mp4";
 
 const Projects = () => {
@@ -15,6 +16,7 @@ const Projects = () => {
     },
     desing: false,
   };
+
   const bearBread = {
     name: "Bear Bread",
     description:
@@ -24,10 +26,11 @@ const Projects = () => {
     links: {
       demo: "",
       code: "",
-      docs: "",
+      docs: bearBreadDoc,
     },
     desing: true,
   };
+
   return (
     <div className="projects-container">
       <Application content={arrimate} />

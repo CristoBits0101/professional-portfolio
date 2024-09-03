@@ -3,11 +3,15 @@ import PropTypes from "prop-types";
 
 export default function Application({ content }) {
   const { name, state, description, video, links, desing } = content;
+
   return (
     <article className="application-main-article">
       <section className="application-main-article-section-one">
         {video ? (
-          <video src={video} controls />
+          <video controls>
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         ) : (
           <p>⚠️ The video is not available</p>
         )}
@@ -23,10 +27,8 @@ export default function Application({ content }) {
           <tbody>
             <tr className="application-main-article-section-two-table-tbody-tr">
               <td className="application-main-article-section-two-table-tbody-td">
-                Next.js (v14.2)
               </td>
               <td className="application-main-article-section-two-table-tbody-td">
-                Spring Boot (v3.3.2)
               </td>
             </tr>
           </tbody>
@@ -60,10 +62,9 @@ Application.propTypes = {
     description: PropTypes.string.isRequired,
     video: PropTypes.string,
     links: PropTypes.shape({
-      demo: PropTypes.string.isRequired,
-      video: PropTypes.string.isRequired,
-      code: PropTypes.string.isRequired,
-      docs: PropTypes.string.isRequired,
+      demo: PropTypes.string,
+      code: PropTypes.string,
+      docs: PropTypes.string,
     }).isRequired,
     desing: PropTypes.bool,
   }).isRequired,

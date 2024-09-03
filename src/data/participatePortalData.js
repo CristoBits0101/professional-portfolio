@@ -4,7 +4,7 @@ import participatePortal from "../../public/cristo-suárez-proyecto-empresa.pdf"
 const participatePortalData = {
   name: "Participate Portal",
   description:
-    "Developed using Magnolia CMS, JavaScript, and Java following a 3-month voluntary training at Altia, applying the knowledge gained during the program.",
+    "Developed using Magnolia CMS, JavaScript and Java following a 3-month voluntary training at Altia, applying the knowledge gained during the program.",
   state: "✅ Completed",
   video: bear,
   links: {

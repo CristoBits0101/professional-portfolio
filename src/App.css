@@ -79,17 +79,17 @@
   }
 
   .about-me-container h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
   }
 
   .about-me-container h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 
   .about-me-container p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: justify;
   }
 

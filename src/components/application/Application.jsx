@@ -1,5 +1,6 @@
 import "./Application.css";
 import PropTypes from "prop-types";
+import docs from "../../assets/icons/docs.svg";
 import folder from "../../assets/icons/folder.svg";
 
 export default function Application({ content }) {
@@ -45,7 +46,7 @@ export default function Application({ content }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={folder} />
+              <img src={folder} alt="Icon folder" />
               {buttonText.frontendTechnology}
             </a>
           )}
@@ -61,6 +62,7 @@ export default function Application({ content }) {
           )}
           {links.docs && (
             <a href={links.docs} target="_blank" rel="noopener noreferrer">
+              <img src={docs} alt="Icon docs" />
               Docs
             </a>
           )}

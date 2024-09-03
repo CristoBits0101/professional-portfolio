@@ -11,8 +11,13 @@ const Projects = () => {
     video: videoArrimate,
     links: {
       demo: "",
-      code: "",
+      frontendCode: "https://github.com/CristoBits0101/arrimate-frontend.git",
+      backendCode: "https://github.com/CristoBits0101/arrimate-backend.git",
       docs: "",
+    },
+    buttonText: {
+      frontendTechnology: "Next.js",
+      backendTechnology: "Spring",
     },
     desing: false,
   };
@@ -25,8 +30,13 @@ const Projects = () => {
     video: "",
     links: {
       demo: "",
-      code: "",
+      frontendCode: "",
+      backendCode: "",
       docs: bearBreadDoc,
+    },
+    buttonText: {
+      frontendTechnology: "",
+      backendTechnology: "",
     },
     desing: true,
   };

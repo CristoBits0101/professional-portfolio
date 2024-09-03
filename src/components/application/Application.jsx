@@ -1,8 +1,10 @@
 import "./Application.css";
 import PropTypes from "prop-types";
+import folder from "../../assets/icons/folder.svg";
 
 export default function Application({ content }) {
-  const { name, state, description, video, links, desing } = content;
+  const { name, state, description, video, links, buttonText, desing } =
+    content;
 
   return (
     <article className="application-main-article">
@@ -26,10 +28,8 @@ export default function Application({ content }) {
         <table className="application-main-article-section-two-table">
           <tbody>
             <tr className="application-main-article-section-two-table-tbody-tr">
-              <td className="application-main-article-section-two-table-tbody-td">
-              </td>
-              <td className="application-main-article-section-two-table-tbody-td">
-              </td>
+              <td className="application-main-article-section-two-table-tbody-td"></td>
+              <td className="application-main-article-section-two-table-tbody-td"></td>
             </tr>
           </tbody>
         </table>
@@ -39,9 +39,24 @@ export default function Application({ content }) {
               Demo
             </a>
           )}
-          {links.code && (
-            <a href={links.code} target="_blank" rel="noopener noreferrer">
-              Code
+          {links.frontendCode && buttonText.frontendTechnology && (
+            <a
+              href={links.frontendCode}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={folder} />
+              {buttonText.frontendTechnology}
+            </a>
+          )}
+          {links.backendCode && buttonText.backendTechnology && (
+            <a
+              href={links.backendCode}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={folder} />
+              {buttonText.backendTechnology}
             </a>
           )}
           {links.docs && (
@@ -63,9 +78,14 @@ Application.propTypes = {
     video: PropTypes.string,
     links: PropTypes.shape({
       demo: PropTypes.string,
-      code: PropTypes.string,
+      frontendCode: PropTypes.string,
+      backendCode: PropTypes.string,
       docs: PropTypes.string,
     }).isRequired,
+    buttonText: PropTypes.shape({
+      frontendTechnology: PropTypes.string,
+      backendTechnology: PropTypes.string,
+    }),
     desing: PropTypes.bool,
   }).isRequired,
 };

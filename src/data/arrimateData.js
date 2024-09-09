@@ -9,12 +9,12 @@ const arrimate = {
   links: {
     demo: "",
     frontendCode: "https://github.com/CristoBits0101/arrimate-frontend.git",
-    backendCode: "https://github.com/CristoBits0101/arrimate-backend.git",
+    backendCode: "",
     docs: "",
   },
   buttonText: {
     frontendTechnology: "Next.js",
-    backendTechnology: "Spring",
+    backendTechnology: "",
   },
   desing: false,
 };

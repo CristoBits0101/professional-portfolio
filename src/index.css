@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
   font-style: normal;
   font-weight: normal;
-  src: url("/src/assets/fonts/roboto-regular.ttf") format("truetype");
+  src: url("/src/assets/fonts/figtree-regular.ttf") format("truetype");
 }
 
 *,
@@ -10,7 +11,7 @@
 *::after {
   box-sizing: border-box;
   color: #283347;
-  font-family: "Roboto", sans-serif;
+  font-family: "Figtree", serif;
   font-optical-sizing: auto;
   font-size: 1rem;
   font-style: normal;

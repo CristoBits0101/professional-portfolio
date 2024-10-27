@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Figtree", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-  src: url("/src/assets/fonts/figtree-regular.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 *,
 *::before,

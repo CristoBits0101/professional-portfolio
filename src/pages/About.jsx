@@ -1,6 +1,6 @@
 import CV from "../components/cv/CV";
 import Networks from "../components/networks/Networks";
-import personalImage from "../assets/images/personal.webp";
+import personalImage from "../assets/images/cristo.png";
 
 const About = () => {
   return (

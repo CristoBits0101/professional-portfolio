@@ -5,7 +5,7 @@ const bearBread = {
   description:
     "Designed the user experience and interface for an app that enables food ordering and reservation management within an amusement park.",
   state: "✅ Completed",
-  video: "https://drive.google.com/file/d/1e9p-0qV7CJhS9z8uXygv9EgE7kjJnt9u/view?usp=sharing",
+  video: "https://www.youtube.com/watch?v=NUMVdL87WXQ",
   links: {
     demo: "",
     frontendCode: "",

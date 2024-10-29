@@ -1,8 +1,8 @@
 const smartEcoSchool = {
   name: "SmartEcoSchool",
   description:
-    "Project aimed at raising awareness among students in educational centers of Gran Canaria about the importance of responsible water and electricity consumption.",
-  state: "✅ Completed",
+    "Proyecto dirigido a concienciar a los estudiantes en centros educativos de Gran Canaria sobre la importancia del consumo responsable de agua y electricidad.",
+  state: "✅ Completado",
   video: "https://www.youtube.com/watch?v=cSyrgDXPXsU",
   links: {
     demo: "",

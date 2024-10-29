@@ -22,11 +22,11 @@ export default function Application({ content }) {
           ) : (
             <video controls>
               <source src={video} type='video/mp4' />
-              Your browser does not support the video tag.
+              Tu navegador no admite la etiqueta de video.
             </video>
           )
         ) : (
-          <p>⚠️ The video is not available</p>
+          <p>⚠️ El video no está disponible</p>
         )}
       </section>
       <section className='application-main-article-section-two'>

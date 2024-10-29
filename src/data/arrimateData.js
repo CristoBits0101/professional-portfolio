@@ -3,7 +3,7 @@ const arrimate = {
   description:
     "Social network with e-commerce that encourages participation in events and the sale of community products among people with similar interests.",
   state: "🛠️ In Progress",
-  video: "https://youtu.be/vBvmeIDnkuY",
+  video: "https://www.youtube.com/watch?v=vBvmeIDnkuY",
   links: {
     demo: "",
     frontendCode: "https://github.com/CristoBits0101/arrimate-frontend.git",

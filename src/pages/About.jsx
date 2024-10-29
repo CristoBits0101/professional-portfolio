@@ -12,7 +12,8 @@ const About = () => {
         <h2>👋 Greetings and welcome!</h2>
         <h1>Cristo Suárez</h1>
         <div className="details">
-          <p>💻 Full-Stack Developer</p>
+          <p>💻 Junior Front-end Developer</p>
+          <p>🎨 Beginner UX/UI Designer</p>
           <p>✉️ cristobits0101@gmail.com</p>
         </div>
         <CV />

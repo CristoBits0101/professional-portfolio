@@ -8,7 +8,7 @@ export default function CV() {
       rel='noopener noreferrer'
       className='button'
     >
-      <span className='text'>Open CV</span>
+      <span className='text'>Abrir CV</span>
       <svg
         xmlns='http://www.w3.org/2000/svg'
         height='24px'

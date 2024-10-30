@@ -9,11 +9,11 @@ const About = () => {
         <img src={personalImage} alt='Cristo Suárez' />
       </article>
       <article className='personal-information-container'>
-        <h2>👋 ¡Saludos y bienvenid@!</h2>
+        <h2>👋 ¡Hola y bienvenid@!</h2>
         <h1>Cristo Suárez</h1>
         <div className='details'>
-          <p>💻 Desarrollador Front-end Junior</p>
-          <p>🎨 Diseñador UX/UI Junior</p>
+          <p>💻 Junior Front-end Developer</p>
+          <p>🎨 Beginner UX/UI Designer</p>
           <p>✉️ cristobits0101@gmail.com</p>
         </div>
         <CV />

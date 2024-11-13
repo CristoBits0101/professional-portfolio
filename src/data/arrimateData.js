@@ -5,7 +5,7 @@ const arrimate = {
   state: '🛠️ En progreso',
   video: 'https://www.youtube.com/watch?v=vBvmeIDnkuY',
   links: {
-    demo: '',
+    demo: 'https://arrimate.vercel.app/es',
     frontendCode: 'https://github.com/CristoBits0101/arrimate-frontend.git',
     backendCode: '',
     docs: '',

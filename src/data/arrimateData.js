@@ -11,7 +11,7 @@ const arrimate = {
     docs: '',
   },
   buttonText: {
-    frontendTechnology: 'Next.js',
+    frontendTechnology: '',
     backendTechnology: '',
   },
   desing: false,

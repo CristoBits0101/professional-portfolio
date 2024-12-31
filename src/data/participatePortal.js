@@ -1,7 +1,7 @@
 import participatePortalDoc from '../../public/participate-portal.pdf'
 
 const participatePortal = {
-  name: 'Portal Participa',
+  name: 'Participate Portal',
   description: '🔹News Portal and Community Forum',
   tecnologies: '🔹FreeMarker • YML • Bootstrap • JavaScript • Java • Magnolia CMS',
   state: '✅ Completado',

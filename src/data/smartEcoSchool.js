@@ -1,7 +1,7 @@
 const smartEcoSchool = {
   name: 'SmartEcoSchool',
   description: '🔹App for Tracking Utility Consumption',
-  tecnologies: '🔹Laravel • Blade • CSS • JavaScript • PHP • MySQL',
+  tecnologies: '🔹Blade • CSS • JavaScript • PHP • Laravel • MySQL',
   state: '✅ Completado',
   video: 'https://www.youtube.com/watch?v=cSyrgDXPXsU',
   links: {

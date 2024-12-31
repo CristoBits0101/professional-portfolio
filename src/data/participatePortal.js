@@ -2,19 +2,17 @@ import participatePortalDoc from '../../public/participate-portal.pdf'
 
 const participatePortal = {
   name: 'Portal Participa',
-  description:
-    'Construido con JavaScript y Java, incluye chat vía WebSocket, foro mediante API RESTful, gestión de sesiones, microservicios y tienda de productos.',
+  description: '• News Portal and Community Forum',
+  tecnology: '',
   state: '✅ Completado',
   video: '',
   links: {
     demo: '',
-    frontendCode: 'https://github.com/CristoBits0101/portal-participate',
-    backendCode: '',
+    code: 'https://github.com/CristoBits0101/portal-participate',
     docs: participatePortalDoc,
   },
   buttonText: {
-    frontendTechnology: 'Magnolia',
-    backendTechnology: '',
+    code: true,
   },
   desing: false,
 }

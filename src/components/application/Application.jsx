@@ -50,24 +50,10 @@ export default function Application({ content }) {
               Demo
             </a>
           )}
-          {links.frontendCode && buttonText.frontendTechnology && (
-            <a
-              href={links.frontendCode}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+          {links.code && buttonText.code && (
+            <a href={links.code} target='_blank' rel='noopener noreferrer'>
               <img src={folder} alt='Icon folder' />
-              {buttonText.frontendTechnology}
-            </a>
-          )}
-          {links.backendCode && buttonText.backendTechnology && (
-            <a
-              href={links.backendCode}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img src={folder} />
-              {buttonText.backendTechnology}
+              Code
             </a>
           )}
           {links.docs && (
@@ -90,13 +76,11 @@ Application.propTypes = {
     video: PropTypes.string,
     links: PropTypes.shape({
       demo: PropTypes.string,
-      frontendCode: PropTypes.string,
-      backendCode: PropTypes.string,
+      code: PropTypes.string,
       docs: PropTypes.string,
     }).isRequired,
     buttonText: PropTypes.shape({
-      frontendTechnology: PropTypes.string,
-      backendTechnology: PropTypes.string,
+      code: PropTypes.bool,
     }),
     desing: PropTypes.bool,
   }).isRequired,

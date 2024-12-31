@@ -9,7 +9,7 @@ const About = () => {
         <img src={personalImage} alt='Cristo Suárez' />
       </article>
       <article className='personal-information-container'>
-        <h2>👋 ¡Hola y bienvenid@!</h2>
+        <h2>👋 Hello and welcome!</h2>
         <h1>Cristo Suárez</h1>
         <div className='details'>
           <p>💻 Junior Front-end Developer</p>

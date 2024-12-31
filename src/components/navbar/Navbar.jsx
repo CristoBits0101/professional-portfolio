@@ -7,12 +7,12 @@ const Navbar = () => {
       <ul>
         <li>
           <NavLink className='flicker' to='/'>
-            Sobre mí
+            About
           </NavLink>
         </li>
         <li>
           <NavLink className='flicker' to='/Projects'>
-            Proyectos
+            Projects
           </NavLink>
         </li>
       </ul>

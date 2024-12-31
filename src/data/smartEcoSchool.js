@@ -1,7 +1,7 @@
 const smartEcoSchool = {
   name: 'SmartEcoSchool',
-  description: '• App for Tracking Utility Consumption',
-  tecnology: '',
+  description: '🔹App for Tracking Utility Consumption',
+  tecnologies: '',
   state: '✅ Completado',
   video: 'https://www.youtube.com/watch?v=cSyrgDXPXsU',
   links: {

@@ -2,8 +2,8 @@ import participatePortalDoc from '../../public/participate-portal.pdf'
 
 const participatePortal = {
   name: 'Portal Participa',
-  description: '• News Portal and Community Forum',
-  tecnology: '',
+  description: '🔹News Portal and Community Forum',
+  tecnologies: '',
   state: '✅ Completado',
   video: '',
   links: {

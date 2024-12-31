@@ -4,7 +4,16 @@ import docs from '../../assets/icons/docs.svg'
 import folder from '../../assets/icons/folder.svg'
 
 export default function Application({ content }) {
-  const { name, state, description, video, links, buttonText, desing } = content
+  const {
+    name,
+    state,
+    description,
+    tecnologies,
+    video,
+    links,
+    buttonText,
+    desing,
+  } = content
 
   return (
     <article className='application-main-article'>
@@ -34,8 +43,21 @@ export default function Application({ content }) {
           {!desing ? '💾 ' : '🎨 '}
           {name}
         </h2>
-        <p className='application-main-article-section-two-p'>{description}</p>
-        <p className='application-main-article-section-two-p'>{state}</p>
+        {description && (
+          <>
+            <p
+              className='application-main-article-section-two-p'
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+              }}
+            >
+              <span>{description}</span>
+              <span>{tecnologies}</span>
+            </p>
+            <p className='application-main-article-section-two-p'>{state}</p>
+          </>
+        )}
         <table className='application-main-article-section-two-table'>
           <tbody>
             <tr className='application-main-article-section-two-table-tbody-tr'>
@@ -73,6 +95,7 @@ Application.propTypes = {
     name: PropTypes.string.isRequired,
     state: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    tecnologies: PropTypes.string.isRequired,
     video: PropTypes.string,
     links: PropTypes.shape({
       demo: PropTypes.string,

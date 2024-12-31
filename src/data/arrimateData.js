@@ -1,7 +1,7 @@
 const arrimate = {
   name: 'Arrímate',
-  description: '• Social Network with E-commerce',
-  tecnology: '',
+  description: '🔹Social Network with E-commerce',
+  tecnologies: '🔹Next.js • TypeScript • Node.js • PostgreSQL',
   state: '🛠️ En progreso',
   video: 'https://www.youtube.com/watch?v=vBvmeIDnkuY',
   links: {

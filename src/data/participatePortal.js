@@ -3,7 +3,7 @@ import participatePortalDoc from '../../public/participate-portal.pdf'
 const participatePortal = {
   name: 'Portal Participa',
   description: '🔹News Portal and Community Forum',
-  tecnologies: '🔹Magnolia CMS • JavaScript • Bootstrap • Java • FreeMarker',
+  tecnologies: '🔹Bootstrap • Magnolia CMS • JavaScript • Java • FreeMarker',
   state: '✅ Completado',
   video: '',
   links: {

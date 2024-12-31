@@ -35,7 +35,7 @@ export default function Application({ content }) {
             </video>
           )
         ) : (
-          <p>⚠️ El video no está disponible</p>
+          <p>⚠️ Video is not available</p>
         )}
       </section>
       <section className='application-main-article-section-two'>

@@ -21,6 +21,7 @@
   padding: 1rem;
   text-align: center;
   overflow: hidden;
+  min-height: 21rem;
 }
 
 .application-main-article-section-one p {

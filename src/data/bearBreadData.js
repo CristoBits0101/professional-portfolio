@@ -3,7 +3,7 @@ import bearBreadDoc from '../../public/bear-bread-app.pdf'
 const bearBread = {
   name: 'Bear Bread',
   description: '🔹Fast Food App for Reservations and Payments',
-  tecnologies: '',
+  tecnologies: '🔹Figma • UXR • UXD • Ideating • Prototyping',
   state: '✅ Completado',
   video: 'https://www.youtube.com/watch?v=NUMVdL87WXQ',
   links: {

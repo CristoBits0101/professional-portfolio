@@ -3,7 +3,7 @@ import './CV.css'
 export default function CV() {
   return (
     <a
-      href='cv_cristo_suárez.pdf'
+      href='cristo_suárez_cv.pdf'
       target='_blank'
       rel='noopener noreferrer'
       className='button'

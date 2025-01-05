@@ -13,6 +13,7 @@ export default function Application({ content }) {
     links,
     buttonText,
     desing,
+    google,
     cloud,
   } = content
 
@@ -56,6 +57,7 @@ export default function Application({ content }) {
               <span>{description}</span>
               <span>{tecnologies}</span>
               <span>{cloud && cloud}</span>
+              <span>{google && google}</span>
             </p>
             <p className='application-main-article-section-two-p'>{state}</p>
           </>
@@ -100,6 +102,7 @@ Application.propTypes = {
     tecnologies: PropTypes.string.isRequired,
     cloud: PropTypes.string,
     video: PropTypes.string,
+    google: PropTypes.string,
     links: PropTypes.shape({
       demo: PropTypes.string,
       code: PropTypes.string,

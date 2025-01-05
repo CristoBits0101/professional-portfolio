@@ -1,9 +1,8 @@
 const arrimate = {
   name: 'Arrímate',
   description: '🔹Social Network with E-commerce and Artificial Intelligence',
-  tecnologies: '🔹HTML • Tailwind CSS • Shadcn UI • TypeScript • Node.js • Next.js • PostgreSQL',
-  google: '🔹Next-Intl • Auth.js • Google Cloud • Google Maps • OAuth 2.0',
-  cloud : '🔹Git • GitHub • Vercel • Neon • Cloudinary',
+  technologies:
+    '🔹HTML • Tailwind CSS • Shadcn UI • TypeScript • Node.js • Next.js • Prisma Client • PostgreSQL • Next-Intl • Auth.js • OAuth 2.0 • Bcrypt • Bcrypt.js • React Hook Form • Zod • UUID • Resend • Git • GitHub • Vercel • Neon • Cloudinary • Google Cloud • Google Maps • React Icons • React Spinners • Swiper • Scrum • Trunk Based Development • Screaming Architecture',
   state: '🛠️ En progreso',
   video: 'https://www.youtube.com/watch?v=vBvmeIDnkuY',
   links: {

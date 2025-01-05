@@ -56,8 +56,8 @@ export default function Application({ content }) {
             >
               <span>{description}</span>
               <span>{tecnologies}</span>
-              <span>{cloud && cloud}</span>
               <span>{google && google}</span>
+              <span>{cloud && cloud}</span>
             </p>
             <p className='application-main-article-section-two-p'>{state}</p>
           </>

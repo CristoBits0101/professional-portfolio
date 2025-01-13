@@ -1,3 +1,5 @@
+import servicesDependencies from '../../public/services-and-dependencies.pdf'
+
 const arrimate = {
   name: 'Arrímate',
   description: '🔹Social Network with E-commerce and Artificial Intelligence',
@@ -7,7 +9,7 @@ const arrimate = {
   links: {
     demo: 'https://arrimate.vercel.app/es',
     code: '',
-    docs: '',
+    docs: servicesDependencies,
   },
   buttonText: {
     code: false,

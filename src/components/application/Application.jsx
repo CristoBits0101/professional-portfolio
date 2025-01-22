@@ -1,6 +1,7 @@
 import './Application.css'
 import PropTypes from 'prop-types'
 import docs from '../../assets/icons/docs.svg'
+import demo from '../../assets/icons/demo.svg'
 import folder from '../../assets/icons/folder.svg'
 
 export default function Application({ content }) {
@@ -69,6 +70,7 @@ export default function Application({ content }) {
         <div className='application-main-article-section-two-div'>
           {links.demo && (
             <a href={links.demo} target='_blank' rel='noopener noreferrer'>
+              <img src={demo} alt='Icon folder' />
               Demo
             </a>
           )}

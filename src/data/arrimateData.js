@@ -8,11 +8,11 @@ const arrimate = {
   video: 'https://www.youtube.com/watch?v=vBvmeIDnkuY',
   links: {
     demo: 'https://arrimate.vercel.app/es',
-    code: '',
+    code: 'https://github.com/CristoBits0101/arrimate-monolithic-platform',
     docs: servicesDependencies,
   },
   buttonText: {
-    code: false,
+    code: true,
   },
   desing: false,
 }
